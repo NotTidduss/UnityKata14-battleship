@@ -9,9 +9,12 @@ What is Battleship?
 	- The winner is whoever guesses all the ships first.
 	
 ToDo:
-	- setup UI: grids with preset ships
-	- guessing logic
-	
-Goals: 
-	- have a basic battleship setup that can be expanded later
-	- code: move infrastructure enum into system script
+- implement gamestates (setting, guessing, ending)
+- implement Phase 1: settings ships
+- implement randomly placing ships into grid (simulate AI for Phase 1)
+- implement Phase 3: an actual ending to the game
+- implement score system based on number of guesses and some stats (wins, losses, average guesses...)
+- implement play again button
+- improve Phase 2: let Player 1 & Player 2 change turns after every guess
+- refactor grid: make it scalable
+- refactor game: make it 3D instead of 2D
